@@ -15,7 +15,7 @@ public class question1 {
 
       boolean verdade = pertence(numero);
 
-      if (verdade){
+      if (verdade || numero == 0){
         System.out.println("O número " + numero + " Pertence.");
       }else {
         System.out.println("O número " + numero + " não pertence.");
